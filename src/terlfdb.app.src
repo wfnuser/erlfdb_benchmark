@@ -1,0 +1,13 @@
+{application, terlfdb,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  erlfdb
+                 ]},
+  {mod, { terlfdb_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,5 @@
+.erlfdb
+.rebar
+deps
+ebin
+*.dump
